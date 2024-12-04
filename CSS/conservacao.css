@@ -1,0 +1,150 @@
+body{
+    background-image:url(../images/ilha_das_cobras.jpeg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    margin: 0; 
+}
+
+header{
+    display: flex;
+    background-color: #e5e1cd;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+}
+
+header ul{
+    margin-right: 150px;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 125px;
+    margin-top: 5px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #4B6B43;
+    transition: 0.6s;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul li a:hover{
+    color: #87B900;
+}
+
+#logo{
+    width: 160px;
+    height: 120px;
+    margin-left: 250px;
+    margin-top: 5px;
+}
+
+main{
+    color: #87B900;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cor_ativo{
+    color: #87B900 
+}
+
+#botao_voltar{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 75px;
+    height: 75px;
+}
+
+#titulo{    
+    font-size: 60px;
+    padding: 45px;
+}
+
+.descricao-tema{
+    color: #4B6B43;
+    background-color: #e5e1cd ;
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    display: flex;
+    font-size: 40px;
+}
+
+.descricao-tema p{
+    font-size: 20px;
+    text-align: justify;
+    max-width: 1360px;
+    margin-left: 200px;
+    margin-right: 80px;
+}
+
+.fundo{
+    background-color: #4B6B43;
+    justify-content: center;
+}
+
+.fundo h1{
+    padding: 40px;
+    font-size: 36px;
+    color: #e5e1cd;
+}
+
+.fundo p{
+    font-size: 20px;
+    color: #e5e1cd;
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: justify;
+    line-height: 35px;
+}
+
+.fundo-ancora{
+    background-color: #4B6B43;
+    margin-top: -40px;
+    height: 80px;
+}
+
+.ancora img{
+    height: 60px;
+    width: 65px;
+    margin-left: 1650px;
+    margin-top: -180px;
+    margin-bottom: 0px;
+}
+
+footer{
+    background-color: #313030;
+    padding: 15px;
+    margin-top: -20;
+}
+
+footer p {
+    line-height: 5px;
+    color: #fffff0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.linha::after{
+    content: '';
+    height: 2px;
+    background-color: #4C4949;
+    display: block;
+    width: 1920; 
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
