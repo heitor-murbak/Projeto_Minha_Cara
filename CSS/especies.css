@@ -59,9 +59,11 @@ main{
 #botao_voltar{
     position: absolute;
     top: 200px;
-    left: 100px;
-    width: 75px;
-    height: 75px;
+    left: 30px;
+
+    a{
+        color: #e5e1cd ;
+    }
 }
 
 #titulo{    
